@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="4" skipped="0" total="5">
+    <suite duration-ms="10947" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="10947" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="test login scenario">
+                <test-method duration-ms="2439" finished-at="2023-09-05T01:40:07.095055Z" name="Login to the Pet Store" started-at="2023-09-05T01:40:04.649523Z" status="PASS"/>
+            </class>
+            <class name="test logout scenario">
+                <test-method duration-ms="1757" finished-at="2023-09-05T01:40:08.860389Z" name="Logout from pet store" started-at="2023-09-05T01:40:07.101113Z" status="PASS"/>
+            </class>
+            <class name="validates pets">
+                <test-method duration-ms="1815" finished-at="2023-09-05T01:40:10.686012Z" name="Validate pet creation" started-at="2023-09-05T01:40:08.867835Z" status="PASS"/>
+                <test-method duration-ms="3305" finished-at="2023-09-05T01:40:13.996558Z" name="validate pet update" started-at="2023-09-05T01:40:10.689Z" status="PASS"/>
+                <test-method duration-ms="1506" finished-at="2023-09-05T01:40:15.510535Z" name="Delete Pet" started-at="2023-09-05T01:40:14.001539Z" status="FAIL">
+                    <exception class="java.lang.AssertionError">
+                        <message><![CDATA[When i delete this pet "1"..................................................passed
+Then i should be deleted successfully "1"...................................failed
+]]></message>
+                        <full-stacktrace><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at steps.Pet.iShouldBeDeletedSuccessfully(Pet.java:70)
+	at ✽.i should be deleted successfully "1"(file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:22)
+]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>

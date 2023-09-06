@@ -1,0 +1,199 @@
+[
+  {
+    "source": "I navigate to the Pet Store",
+    "steps": [
+      {
+        "name": "I navigate to the Pet Store",
+        "aggregatedDurations": {
+          "median": 0.039695,
+          "average": 0.039695
+        },
+        "durations": [
+          {
+            "duration": 0.039695,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I login using valid credentials {string} and {string}",
+    "steps": [
+      {
+        "name": "I login using valid credentials \"karim\" and \"test\"",
+        "aggregatedDurations": {
+          "median": 0.220684,
+          "average": 0.220684
+        },
+        "durations": [
+          {
+            "duration": 0.220684,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should get a correct response {string} and {string}",
+    "steps": [
+      {
+        "name": "I should get a correct response \"karim\" and \"test\"",
+        "aggregatedDurations": {
+          "median": 0.969978,
+          "average": 0.969978
+        },
+        "durations": [
+          {
+            "duration": 0.969978,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I logged out",
+    "steps": [
+      {
+        "name": "I logged out",
+        "aggregatedDurations": {
+          "median": 0.775327,
+          "average": 0.775327
+        },
+        "durations": [
+          {
+            "duration": 0.775327,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Logout.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should got valid status code",
+    "steps": [
+      {
+        "name": "I should got valid status code",
+        "aggregatedDurations": {
+          "median": 0.981267,
+          "average": 0.981267
+        },
+        "durations": [
+          {
+            "duration": 0.981267,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Logout.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i create pet with name {string} and {string}",
+    "steps": [
+      {
+        "name": "i create pet with name \"cat\" and \"12\"",
+        "aggregatedDurations": {
+          "median": 0.966538,
+          "average": 0.966538
+        },
+        "durations": [
+          {
+            "duration": 0.966538,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "i create pet with name \"cat\" and \"13\"",
+        "aggregatedDurations": {
+          "median": 0.747423,
+          "average": 0.747423
+        },
+        "durations": [
+          {
+            "duration": 0.747423,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i sohould validate correct response {string}",
+    "steps": [
+      {
+        "name": "i sohould validate correct response \"cat\"",
+        "aggregatedDurations": {
+          "median": 0.827682,
+          "average": 0.827682
+        },
+        "durations": [
+          {
+            "duration": 0.848759,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:5"
+          },
+          {
+            "duration": 0.806605,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i update pet name to {string}",
+    "steps": [
+      {
+        "name": "i update pet name to \"dog\"",
+        "aggregatedDurations": {
+          "median": 0.741978,
+          "average": 0.741978
+        },
+        "durations": [
+          {
+            "duration": 0.741978,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i should validate new name {string}",
+    "steps": [
+      {
+        "name": "i should validate new name \"dog\"",
+        "aggregatedDurations": {
+          "median": 0.009295,
+          "average": 0.009295
+        },
+        "durations": [
+          {
+            "duration": 0.009295,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i delete this pet {string}",
+    "steps": [
+      {
+        "name": "i delete this pet \"1\"",
+        "aggregatedDurations": {
+          "median": 0.744248,
+          "average": 0.744248
+        },
+        "durations": [
+          {
+            "duration": 0.744248,
+            "location": "file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:21"
+          }
+        ]
+      }
+    ]
+  }
+]

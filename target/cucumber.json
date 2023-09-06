@@ -1,0 +1,520 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-05T01:40:04.649Z",
+        "before": [
+          {
+            "result": {
+              "duration": 208597000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Login.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Logout.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 553000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Pet.BaseURI()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login to the Pet Store",
+        "description": "",
+        "id": "test-login-scenario;login-to-the-pet-store;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39695000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the Pet Store",
+            "match": {
+              "location": "steps.Login.iNavigateToThePetStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1220684000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login using valid credentials \"karim\" and \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karim\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.Login.iLoginUsingValidCredentialsAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 969978000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get a correct response \"karim\" and \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karim\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.Login.iShouldGetACorrectResponseAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PETTSK"
+          }
+        ]
+      }
+    ],
+    "name": "test login scenario",
+    "description": "",
+    "id": "test-login-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@PETTSK",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-05T01:40:07.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 156000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Login.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 459000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Logout.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Pet.BaseURI()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Logout from pet store",
+        "description": "",
+        "id": "test-logout-scenario;logout-from-pet-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 775327000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I logged out",
+            "match": {
+              "location": "steps.Logout.iLoggedOut()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 981267000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should got valid status code",
+            "match": {
+              "location": "steps.Logout.iShouldGotValidStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PETTSK"
+          }
+        ]
+      }
+    ],
+    "name": "test logout scenario",
+    "description": "",
+    "id": "test-logout-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Logout.feature",
+    "tags": [
+      {
+        "name": "@PETTSK",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-05T01:40:08.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Login.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 81000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Logout.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 334000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Pet.BaseURI()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate pet creation",
+        "description": "",
+        "id": "validates-pets;validate-pet-creation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 966538000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i create pet with name \"cat\" and \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cat\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.Pet.iCreatePetWithNameAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 848759000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i sohould validate correct response \"cat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cat\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.Pet.iSohouldValidateCorrectResponse(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PETTSK"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-05T01:40:10.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 108000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Login.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Logout.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Pet.BaseURI()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "validate pet update",
+        "description": "",
+        "id": "validates-pets;validate-pet-update;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 747423000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i create pet with name \"cat\" and \"13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cat\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"13\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.Pet.iCreatePetWithNameAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 806605000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i sohould validate correct response \"cat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cat\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.Pet.iSohouldValidateCorrectResponse(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 741978000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i update pet name to \"dog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dog\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.Pet.iUpdatePetNameTo(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1009295000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i should validate new name \"dog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dog\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.Pet.iShouldValidateNewName(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PETTSK"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-05T01:40:14.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 86000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Login.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Logout.BaseURI()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Pet.BaseURI()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Delete Pet",
+        "description": "",
+        "id": "validates-pets;delete-pet;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 744248000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i delete this pet \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Pet.iDeleteThisPet(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [200] but found [404]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:907)\n\tat org.testng.Assert.assertEquals(Assert.java:917)\n\tat steps.Pet.iShouldBeDeletedSuccessfully(Pet.java:70)\n\tat ✽.i should be deleted successfully \"1\"(file:///Users/salemk/Downloads/APIs_BDD_Test-master/src/test/java/features/Pets.feature:22)\n",
+              "duration": 762178000,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "i should be deleted successfully \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.Pet.iShouldBeDeletedSuccessfully(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PETTSK"
+          }
+        ]
+      }
+    ],
+    "name": "validates pets",
+    "description": "",
+    "id": "validates-pets",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Pets.feature",
+    "tags": [
+      {
+        "name": "@PETTSK",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
