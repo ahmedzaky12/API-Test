@@ -7,5 +7,5 @@ Feature: test login scenario
 
     Examples:
       | username | password |
-      | karim    | test     |
+      | Zaki    | test     |
 
